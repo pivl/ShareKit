@@ -794,7 +794,7 @@ NSString* SHKLocalizedStringFormat(NSString* key)
       
       NSString *path = [SHK shareKitLibraryBundlePath];
       bundle = [NSBundle bundleWithPath:path];
-      NSCAssert(bundle != nil,@"ShareKit has been refactored to be used as Xcode subproject. Please follow the updated installation wiki and re-add it to the project. Please do not forget to clean project and clean build folder afterwards. In case you use CocoaPods override - (NSNumber *)isUsingCocoaPods; method in your configurator subclass and return [NSNumber numberWithBool:YES]");
+      NSCAssert(bundle != nil,@"ShareKit has been refactored to be used as Xcode subproject. Please follow the updated installation wiki and re-add it to the project. Please do not forget to clean project and clean build folder afterwards.");
   }
   NSString *result = [bundle localizedStringForKey:key value:nil table:nil];
   return result;
