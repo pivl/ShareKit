@@ -1,4 +1,3 @@
-// https://github.com/zysoft/ShareKit/commit/7c90a4a5c62bf9f8aeed938117b3a13d87ea847a
 
 "Email" = "Email";
 "Username" = "Имя";
@@ -81,3 +80,11 @@
 
 "Access Error" = "Ошибка доступа";
 "There was an error while sharing" = "Произошла ошибка при oтправке";
+
+//iOS Sharers general, alert title when user has not configured service's account in Settings.app
+"No %@ Accounts" = "Нет учетных записей для %@";
+"There are no %@ accounts configured. You can add or create a %@ account in Settings." = "Нет настроенных учетных записей для %@. Вы можете добавить или создать учетную запись для %@ в Настройках устройства.";
+"No Access" = "Нет доступа";
+"Access to %@ is not allowed for this app. You can allow access in Settings." = "Доступ к %@ запрещен для этого приложения. Вы можете разрешить доступ в Настройках устройства.";
+// ---------------------------------------------------
+
